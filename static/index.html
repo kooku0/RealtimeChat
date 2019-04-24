@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Realtime_Counter</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div id="main">
+      <div id="chat">
+        <!-- chat area -->
+      </div>
+      <div>
+        <input type="text" id="test" placeholder="message.." onkeypress="JavaScript:press()">
+        <button onclick="send()">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
